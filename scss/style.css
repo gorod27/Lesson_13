@@ -1,7 +1,42 @@
+@font-face {
+  font-family: 'Raleway Bold';
+  src: url("../fonts/Raleway-Bold.ttf");
+}
+
+@font-face {
+  font-family: 'Raleway Light';
+  src: url("../fonts/Raleway-Light.ttf");
+}
+
+.header {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header .title {
+  font-size: 90px;
+  font-family: 'Raleway Bold';
+  color: #262626;
+}
+
+.header .header__title {
+  padding: 80px 0 50px 0;
+}
+
+.header .text {
+  font-family: 'Raleway Light';
+  font-size: 17px;
+  color: #262626;
+}
+
+.header .header__text {
+  margin-bottom: 50px;
+}
+
 .main {
   background-color: #ffe92f;
   max-width: 1500px;
-  height: 100vh;
 }
 
 .main .main__images {
@@ -48,5 +83,25 @@
   margin-right: 15px;
   width: 100%;
   margin-bottom: 30px;
+}
+
+.main .button {
+  width: 170px;
+  text-transform: uppercase;
+  font-family: 'Raleway Light';
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  padding: 15px 10px;
+  -webkit-box-shadow: 1px 2px 4px gray;
+          box-shadow: 1px 2px 4px gray;
+}
+
+.main .main__button-gallery {
+  background-color: #5585a2;
+  margin: 50px 0 120px 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=style.css.map */
