@@ -1,0 +1,9 @@
+@mixin button{
+    width: 200px;
+    text-transform: uppercase;
+    font-family: 'Raleway Light';
+    font-size: 17px;
+    border: none;
+    padding: 15px 10px;
+    box-shadow: 1px 2px 4px gray;
+}
