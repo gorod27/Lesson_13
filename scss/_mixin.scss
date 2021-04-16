@@ -6,6 +6,10 @@
     border: none;
     padding: 15px 10px;
     box-shadow: 1px 2px 4px gray;
+    a {
+      text-decoration-line: none;
+      color: #fff;
+    }
 }
 @mixin title {
   font-family: 'Raleway Bold';
@@ -13,14 +17,19 @@
       color: #fff;
       text-align: center;
 }
-@mixin pharagraph {
+@mixin paragraph {
   font-family: 'Raleway Light';
   font-size: 15px;
-  color: #fff;
+  color: #262626;
   text-align: center; 
 }
 @mixin header {
   width: 40%;
   margin: 0 auto;
   padding-top: 70px;
+}
+@mixin list {
+  color: #262626;
+  font-size: 15px;
+  font-family: 'Raleway Bold';
 }

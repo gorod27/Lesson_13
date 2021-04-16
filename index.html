@@ -13,24 +13,24 @@
 
     <!-- block Home -->
 
-    <section class="section__home container-fluid">
+    <section class="section__home container-fluid ">
       <header class="header__home row justify-content-center" >
         <span class="header__home-logo">Cahee</span>
         <div class="header__menu">
           <ul class="header__home-menu menu__ul">
             <a href="#"  class="link"><li class="header__home-item">home</li></a>
             <a href="#about" class="link"><li class="header__home-item">about</li></a>
-            <a href="#" class="link"><li class="header__home-item">services</li></a>
+            <a href="#services" class="link"><li class="header__home-item">services</li></a>
             <a href="#gallery" class="link"><li class="header__home-item">gallery</li></a>
             <a href="#blog" class="link"><li class="header__home-item">blog</li></a>
-            <a href="#" class="link"><li class="header__home-item">contact</li></a>
+            <a href="#contact" class="link"><li class="header__home-item">contact</li></a>
           </ul>
         </div>
       </header>
-        <div class="section__home-block ">
+        <div class="section__home-block  ">
           <h1 class="section__home-block-title">Fresh Life</h1>
-          <p class="section__home-block-pharagraph section__pharagraph">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-          <button class="section__home-block-button"><a class="link__button" href="#">get free now</a></button>
+          <p class="section__home-block-paragraph section__paragraph">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+          <button class="section__home-block-button button"><a href="#">get free now</a></button>
         </div>
           <div class="section__home-icon">
             <img src="/Homework/Lesson_11/img/scroll.png" alt="">
@@ -42,10 +42,14 @@
       <section class="section__about container-fluid">
         <div class=" block section__block-about ">
           <h1 class="block__title block__title-about" id="about">About us</h1>
-          <p class="block__pharagraph section__pharagraph-about">Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
-          <p class="block__pharagraph section__pharagraph-about">Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
+          <p class="block__paragraph section__paragraph-about">Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+          <p class="block__paragraph section__paragraph-about">Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
         </div>
-        <div class="link__home"><button class="button"><a href="#">Home</a></button></div>
+        <div class="link__home">
+          <button class="button">
+            <a href="#">Home</a>
+          </button>
+        </div>
       </section>
 
       <!-- block Gallery -->
@@ -64,12 +68,12 @@
             <img class="img-fluid column__img" src="img/blackberry.jpg" alt="blackberry">
         </div>
       </div>
-      <div class="section__footer ">
+      <div class="section__footer row justify-content-between">
         <img class="footer__images img-fluid" src="img/glass.jpg" alt="glass">
         <img class="footer__images img-fluid" src="img/date-plum.jpg" alt="date-plum">
       </div>
       <div class="row justify-content-center">
-        <button class="section__button-gallery">wiew more</button>
+        <button class="section__button-gallery button">wiew more</button>
       </div>  
     </section>
 
@@ -113,9 +117,49 @@
       </section>
     </article>
     <div class="button__place">
-      <button class="section__blog-button button__place">view more</button>
+      <button class="section__blog-button button__place button"><a href=" ">view more</a></button>
     </div>
     </section>
+
+    <!-- block Contact -->
+  <article class="article__contact container-fluid ">
+    <header class="article__contact-header header__contact">
+      <h1 class="article__contact-title title__distans" id="contact">Contact</h1>
+      <p class="article__contact-paragraph">For new project, ideas, business or anything you'd like to discuss, contact with me!</p>
+    </header>
+    <div class=" row">
+      <section class="section__contact  ">
+          <form action="mail.php" method="GET" class="contact__form form__distans " >
+            <input type="text" class="input__form" placeholder="Your name...">
+            <input type="mail" class="input__form" placeholder="Your email...">
+            <input type="text" class="input__form" placeholder="Your phone number...">
+            <textarea name="message" class=" input__textarea input__form" id="" cols="10" rows="3" placeholder="Your message..."></textarea>
+          </form>
+        </section>
+        <section class="section__flex section__contact">
+          <div class="section__address">
+            <dl>
+              <dt>address </dt>
+                <dd>123 City name, Street, City, Country</dd>
+              <dt>email </dt>
+                <dd>cahee@domain.com</dd>
+              <dt> phone</dt>
+                <dd>+012 345 6789</dd>
+            </dl>
+          </div>
+        </section>
+      </div>
+    </article>
+      <footer class="footer footer__distance">
+        <div>
+          <span class="footer__copyright">© 2015 Company. All right reserved.</span>
+        </div>
+        <div> <span class="footer__logo-cahee">Cahee</span>
+        </div>
+        <div>
+          <span>Made with <span class="word__love">love </span>by Auskteez</span>
+        </div>
+      </footer>
   </main>
 </body>
 </html>
