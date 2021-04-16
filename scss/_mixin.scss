@@ -1,9 +1,26 @@
 @mixin button{
-    width: 200px;
+    width: 170px;
     text-transform: uppercase;
     font-family: 'Raleway Light';
     font-size: 17px;
     border: none;
     padding: 15px 10px;
     box-shadow: 1px 2px 4px gray;
+}
+@mixin title {
+  font-family: 'Raleway Bold';
+      font-size: 80px;
+      color: #fff;
+      text-align: center;
+}
+@mixin pharagraph {
+  font-family: 'Raleway Light';
+  font-size: 15px;
+  color: #fff;
+  text-align: center; 
+}
+@mixin header {
+  width: 40%;
+  margin: 0 auto;
+  padding-top: 70px;
 }
