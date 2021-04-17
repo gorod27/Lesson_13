@@ -13,20 +13,20 @@
 }
 @mixin title {
   font-family: 'Raleway Bold';
-      font-size: 80px;
+      font-size: 90px;
       color: #fff;
       text-align: center;
 }
 @mixin paragraph {
   font-family: 'Raleway Light';
-  font-size: 15px;
+  font-size: 17px;
   color: #262626;
   text-align: center; 
 }
 @mixin header {
   width: 40%;
   margin: 0 auto;
-  padding-top: 70px;
+  padding-top: 10%;
 }
 @mixin list {
   color: #262626;
