@@ -1,8 +1,8 @@
 @mixin button{
-    width: 170px;
+    width: 200px;
     text-transform: uppercase;
     font-family: 'Raleway Light';
-    font-size: 17px;
+    font-size: 20px;
     border: none;
     padding: 15px 10px;
     box-shadow: 1px 2px 4px gray;
@@ -26,7 +26,7 @@
 @mixin header {
   width: 40%;
   margin: 0 auto;
-  padding-top: 10%;
+  padding-top: 5%;
 }
 @mixin list {
   color: #262626;
